@@ -1,4 +1,4 @@
-    const triggers = document.querySelectorAll('a');
+    const triggers = document.querySelectorAll('div.navbar > a');
     const highlight = document.createElement('span');
     highlight.classList.add('highlight');
     document.body.append(highlight);

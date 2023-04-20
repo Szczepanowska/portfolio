@@ -1,18 +1,21 @@
-a {
-  text-decoration: none;
-  color: rgb(109, 108, 108);
-}
-
-img {
-  height: 384px;
-  margin: auto 24px;
-}
-
 body {
   background-color: #484E52;
   font-family: 'Poppins', sans-serif;
   color: rgb(186, 186, 186);
+}
 
+a {
+  text-decoration: none;
+  color: rgb(109, 108, 108);
+  font-size: 24px;
+}
+
+
+h1 {
+  color: #9fd1e2;
+  text-shadow: 1px 1px 1px rgba(171, 169, 169, 0.511);
+  font-size: 32px;
+  text-align: center;
 }
 
 .navbar {
@@ -26,7 +29,6 @@ body {
   background: rgba(0,0,0,0.05);
   border-radius: 50px;
   padding: 2px 12px;
-  font-size: 24px;
 }
 
 .main-content {
@@ -34,15 +36,9 @@ body {
   display: flex;
 }
 
-/* .text-content {
-  margin: 64px 0;
-} */
-
-.text-content h1 {
-  color: #9fd1e2;
-  text-shadow: 1px 1px 1px rgba(171, 169, 169, 0.511);
-  font-size: 32px;
-  text-align: center;
+.main-content img {
+  height: 384px;
+  margin: auto 24px;
 }
 
 .text-content p {
@@ -60,4 +56,11 @@ body {
   border-radius: 50px;
   display: block;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.contact-content {
+  margin: 120px 192px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
